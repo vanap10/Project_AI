@@ -17,6 +17,6 @@ typedef struct img {
 
 typedef struct imgData {
   struct img img;
-  number number;
-
+  enum number number;
 } imgData;
+imgData loadImg(char *str);
